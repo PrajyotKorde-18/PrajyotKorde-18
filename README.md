@@ -26,7 +26,7 @@ Built at HackByte 4.0 (IIITDM Jabalpur, Top 120 teams in India) in a team of fou
 **Languages:** Java, Python, SQL, C
 **Backend:** Spring Boot, REST API design, Redis, PostgreSQL, MySQL
 **Tools:** Git, GitHub, Docker, Maven, JUnit, Postman
-**Core CS:** DSA (320+ problems solved), OOP, DBMS, Linux, LLD
+**Core CS:** DSA (350+ problems solved), OOP, DBMS, Linux, LLD
 
 ##  Highlights
 - 3rd place, TechSprint Hackathon (GDG On Campus, RBU)
