@@ -13,6 +13,7 @@ I build backend systems in Java and Spring Boot, with a focus on reliability, pe
 
 **[Resilient Cache Engine](https://github.com/PrajyotKorde-18/Resilient-Cache-Engine)**: self-healing multi-level caching library
 A Spring Boot Starter with a two-layer cache (Caffeine + Redis) exposed through a custom `@ResilientCache` annotation. It falls back to the local cache when Redis fails, resyncs on recovery, and uses Redis pub/sub for cross-instance invalidation. Load-tested to a 99%+ hit rate, cutting average API latency from 847 ms to 180 ms.
+
 `Java 21` `Spring Boot` `Spring AOP` `Redis` `Caffeine` `Docker`
 
 **[Chaos Toolkit](https://github.com/PrajyotKorde-18/Chaos-Toolkit)**: chaos engineering platform for Spring Boot microservices
