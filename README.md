@@ -19,6 +19,10 @@ A Spring Boot Starter with a two-layer cache (Caffeine + Redis) exposed through 
 Injects latency and exception faults into running services through a Spring AOP agent, finds the point where a service breaks its SLO, and scores resilience with a letter grade. Includes a live dashboard, a five-scenario fault matrix and rule-based post-mortem reports.
 `Java 21` `Spring Boot` `Spring AOP` `Resilience4j` `Chart.js`
 
+**[PulseCheck](https://github.com/PrajyotKorde-18/PulseCheck)**: batch data ingestion guardrail with PostgreSQL quarantine
+Stops bad data from corrupting analytical tables without crashing the pipeline. It validates rows against declarative business rules, isolates malformed records into a queryable JSONB quarantine table with GIN-indexed reasons, and detects volume/freshness anomalies against historical medians. Evaluated on 2.96 million real NYC TLC taxi records across 31 daily batches with a 99.89% clean load rate and zero duplicate rows.
+`Python 3.11+` `PostgreSQL` `Pydantic v2` `PyArrow` `Docker` `Pytest`
+
 **[PromptBridge](https://github.com/PrajyotKorde-18/HackByte4.0)**: AI-powered prompt optimization platform
 Built at HackByte 4.0 (IIITDM Jabalpur, Top 120 teams in India) in a team of four. I owned the architecture and PostgreSQL database design.
 `FastAPI` `React` `PostgreSQL` `Groq (Llama-3-70B)`
